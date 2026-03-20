@@ -14,7 +14,7 @@ Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lu
 <h3>Performance section:</h3>
 <b>Miner =</b> the list of available miners added in the configuration plus 'workmode' indicator for Avalon miners.<br>
 <b>Hashrate =</b> displays the current hashrate the miner is hashing.<br>
-<b>Efficiency =</b> the the efficiancy value of the miner. The formula is: hashrate/DC wattage = efficiency (J/Th or W/Th).<br>
+<b>Efficiency =</b> the efficiency value of the miner. The formula is: hashrate/DC wattage = efficiency (J/Th or W/Th).<br>
 <b>Temp Asic/VR =</b> the temperature of the ASIC chips and the Voltage regulator.<br>
 <b>Power Volt/DC/AC =</b> Input power from PSU in voltage, DC power the unit uses in wattage and AC power (at wall outlet).<br>
 <b>Asic Volt/Freq =</b> the millivoltage value of each Asic chip and what frequency it is operating on<br>
@@ -23,7 +23,7 @@ Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lu
 <h3>Mining section</h3>
 <b>Miner =</b> the list of available miners added in the configuration.<br>
 <b>Uptime =</b> the time elapsed since the miner has been monitored by the dashboard application.<br>
-<b>Best Diff All-time =</b> the highest difficuly that the miner has ever achieved. (Avalon products do not provide this value).<br>
+<b>Best Diff All-time =</b> the highest difficulty that the miner has ever achieved. (Avalon products do not provide this value).<br>
 <b>Best Diff Session =</b> the highest difficulty that the miner achieved since it was last powered on.<br>
 <b>Accepted/Rejected =</b> the number of submitted shares that were accepted and rejected by the pool the miner is mining to.<br>
 <b>Pool Diff =</b> the difficulty level the miner is submitting shares to the pool. (Avalon, Bitaxe and Lucky Miner products do not provide this number).<br>
@@ -40,7 +40,7 @@ Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lu
 <b>Activity =</b> displays the activity of the submitted shares or block found of each miner in real time.<br><br>
 
 <h2>What are the upcoming features?</h2>
-I am opened for feedback and future requests to enhance the capability of this application. Please do not hesitate to write up an issue if you notice anything not working properly. Alternatively you can reach out via Reddit: https://www.reddit.com/r/Options4Good/<br><br>
+I am open to feedback and future requests to enhance the capability of this application. Please do not hesitate to write up an issue if you notice anything not working properly. Alternatively you can reach out via Reddit: https://www.reddit.com/r/Options4Good/<br><br>
 
 <h2>Installation, Configuration & Start</h2>
 <b>Linux Dependencies</b><br><br>
@@ -62,8 +62,8 @@ You will find a series of pre-configured miners as for an example. They should l
     {"ip": "10.0.0.53", "name": "Nerd-02", "type_hint": "nerd"},<br>
     {"ip": "10.0.0.130", "name": "Nerd-01", "type_hint": "nerd"},<br>
     {"ip": "10.0.0.147", "name": "Gamma-01", "type_hint": "nerd"}<br><br>
-Alter the lines as you need. Replace IP address to your miners' IP address. (Leave quotation marks)! Replace the value in the "name" to whatever your miner's name is. CAUTION! DO NOT ALTER THE VALUE IN THE "type_hint"!!! That value must stay, otherwise the application will not function properly! Any Avalon products, use "avalon". Any Bitaxe and NerdQaxe products use "nerd". Any Lucky Miner products use "lucky".<br>
-NOTE: the last configuration line DOES NOT HAVE the comma "," at the end! IF you will configure only one miner make sure that the comma is not present at the end. It only requires if you add multiple lines except at the end of the last line!!!<br><br>
+Alter the lines as you need. Replace the IP address with your miners' IP address. (Leave quotation marks)! Replace the value in the "name" to whatever your miner's name is. CAUTION! DO NOT ALTER THE VALUE IN THE "type_hint"!!! That value must stay, otherwise the application will not function properly! Any Avalon products, use "avalon". Any Bitaxe and NerdQaxe products use "nerd". Any Lucky Miner products use "lucky".<br>
+NOTE: the last configuration line DOES NOT HAVE the comma "," at the end! IF you will configure only one miner make sure that the comma is not present at the end. A comma is only required if you are adding multiple lines; do not include a comma on the final line!!!<br><br>
 Save the file<br><br>
 Start the application from the terminal running the below command:
 
