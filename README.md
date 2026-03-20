@@ -1,5 +1,5 @@
 <h1>Home ASIC Miner Stats Monitoring Dashboard</h1>
-Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lucky Miner, Avalon Q, Avalon Nano &amp; More. A perfect way to view stats for all of your home miners at one place. I hope I can contribute with this small project to the community and many of you will enjoy my creation. The dashboard application supports and can receive and display data from Bitaxe, NerdQaxe, Lucky Miner and Avalon home miners.<br><br>
+Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lucky Miner, Avalon Q, Avalon Nano &amp; More. A perfect way to view stats for all of your home miners in one place. I hope I can contribute with this small project to the community and many of you will enjoy my creation. The dashboard application supports and can receive and display data from Bitaxe, NerdQaxe, Lucky Miner and Avalon home miners.<br><br>
 
 <img width="2121" height="1019" alt="minerdashboardv222" src="https://github.com/user-attachments/assets/450ee28c-1a03-4d67-9f15-0c8aeeb9e237" />
 
@@ -18,7 +18,7 @@ Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lu
 <b>Temp Asic/VR =</b> the temperature of the ASIC chips and the Voltage regulator.<br>
 <b>Power Volt/DC/AC =</b> Input power from PSU in voltage, DC power the unit uses in wattage and AC power (at wall outlet).<br>
 <b>Asic Volt/Freq =</b> the millivoltage value of each Asic chip and what frequency it is operating on<br>
-<b>Fan =</b> the percentage of speed the the cooling fan is running at and the RPM value. (Avalon products do not provide exact RPM value, only percentage).<br><br>
+<b>Fan =</b> the percentage of speed the cooling fan is running at and the RPM value. (Avalon products do not provide exact RPM value, only percentage).<br><br>
 
 <h3>Mining section</h3>
 <b>Miner =</b> the list of available miners added in the configuration.<br>
