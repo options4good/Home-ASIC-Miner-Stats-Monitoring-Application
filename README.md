@@ -40,7 +40,7 @@ Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lu
 <b>Activity =</b> displays the activity of the submitted shares or block found of each miner in real time.<br><br>
 
 <h2>What are the upcoming features?</h2>
-I am open to feedback and future requests to enhance the capability of this application. Please do not hesitate to write up an issue if you notice anything not working properly. Alternatively you can reach out via Reddit: https://www.reddit.com/r/Options4Good/<br><br>
+I am open to feedback and future requests to enhance the capability of this application. Please do not hesitate to write up an issue if you notice anything not working properly. Alternatively, you can reach out via Reddit: https://www.reddit.com/r/Options4Good/<br><br>
 
 <h2>Installation, Configuration & Start</h2>
 <b>Linux Dependencies</b><br><br>
@@ -73,7 +73,7 @@ python3 minerdashboard.py
 
 <br>
 
-<h4>Donations are accepted and highly appreciated via crypto payments:</h4>
+<h4>Donations are highly appreciated and can be made via crypto:</h4>
 <b>DGB</b> wallet address:&nbsp;&nbsp;DEkZrJo1BHdiqnQq1XQSWGymEcDWGAWwZs<br>
 <b>DOGE</b> wallet address:&nbsp;&nbsp;DKZ9sv4VoTiQQdwi7VY25573UfpQqZJfYf<br>
 <b>LTC</b> wallet address:&nbsp;&nbsp;MJw3XHpR65Ec8rKEBthK5Dnvcy1CixYGTa<br>
