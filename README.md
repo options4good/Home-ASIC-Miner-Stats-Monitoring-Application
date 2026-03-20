@@ -64,7 +64,7 @@ You will find a series of pre-configured miners as for an example. They should l
     {"ip": "10.0.0.147", "name": "Gamma-01", "type_hint": "nerd"}<br><br>
 Alter the lines as you need. Replace the IP address with your miners' IP address. (Leave quotation marks)! Replace the value in the "name" to whatever your miner's name is. CAUTION! DO NOT ALTER THE VALUE IN THE "type_hint"!!! That value must stay, otherwise the application will not function properly! Any Avalon products, use "avalon". Any Bitaxe and NerdQaxe products use "nerd". Any Lucky Miner products use "lucky".<br>
 NOTE: the last configuration line DOES NOT HAVE the comma "," at the end! IF you will configure only one miner make sure that the comma is not present at the end. A comma is only required if you are adding multiple lines; do not include a comma on the final line!!!<br><br>
-Save the file<br><br>
+Save the file.<br><br>
 Start the application from the terminal running the below command:
 
 ```bash
