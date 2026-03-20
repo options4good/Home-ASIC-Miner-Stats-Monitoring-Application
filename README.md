@@ -29,13 +29,20 @@ Home ASIC Miner Stats Monitoring Dashboard Application for: Bitaxe, NerdQaxe, Lu
 <b>Pool Diff =</b> the difficulty level the miner is submitting shares to the pool. (Avalon, Bitaxe and Lucky Miner products do not provide this number).<br>
 <b>Blocks =</b> the number of blocks the miner has found.<br><br>
 
+<h3>Connectivity section</h3>
+<b>Miner =</b> the list of available miners added in the configuration.<br>
+<b>IP Address =</b> displaying the Ip Address of the miner that was added to configuration.<br>
+<b>Pool URL =</b> the location where the miner is pointed to.<br>
+<b>Ping =</b> the latency between the miner and the location that is pointed to.<br>
+<b>Username/Worker =</b> the username the miner is set up in the miner's setting and the worker name if it was set up in the miner's setting.<br><br>
 
+<h3>Activity section</h3>
+<b>Activity =</b> displays the activity of the submitted shares or block found of each miner in real time.<br><br>
 
 <h2>What are the upcoming features?</h2>
-Continue checking the application for possible issues, adding version number, test application on other OS like Windows. Other than these:<br>
 I am opened for feedback and future requests to enhance the capability of this application. Please do not hesitate to write up an issue if you notice anything not working properly. Alternatively you can reach out via Reddit: https://www.reddit.com/r/Options4Good/<br><br>
 
-<h2>Installation & Start</h2>
+<h2>Installation, Configuration & Start</h2>
 <b>Linux Dependencies</b><br><br>
 In the terminal perform the below command:<br><br>
 
