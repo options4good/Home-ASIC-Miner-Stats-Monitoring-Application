@@ -50,7 +50,21 @@ In the terminal perform the below command:<br><br>
 sudo apt update && sudo apt install python3 python3-pip python3-venv -y
 ```
 
-Download the latest dgbnodemonitor.py file from the "Releases" section: https://github.com/options4good/Home-ASIC-Miner-Stats-Monitoring-Dashboard/releases<br><br>
+Download the latest minerdashboard.py file from the "Releases" section: https://github.com/options4good/Home-ASIC-Miner-Stats-Monitoring-Dashboard/releases<br><br>
+
+<b>Configuration</b><br><br>
+Open the file in a text editor (or do nano minerdashboard.py in terminal)<br><br>
+Locate the "# --- Configuration ---" section<br><br>
+You will find a series of pre-configured miners as for an example. They should look similar like these lines:<br><br>
+    {"ip": "10.0.0.3", "name": "Avalon-Q-01", "type_hint": "avalon"},<br>
+    {"ip": "10.0.0.23", "name": "Avalon-Nano3S-01", "type_hint": "avalon"},<br>
+    {"ip": "10.0.0.47", "name": "Lucky-LV07-01", "type_hint": "lucky"},<br>
+    {"ip": "10.0.0.53", "name": "Nerd-02", "type_hint": "nerd"},<br>
+    {"ip": "10.0.0.130", "name": "Nerd-01", "type_hint": "nerd"},<br>
+    {"ip": "10.0.0.147", "name": "Gamma-01", "type_hint": "nerd"}<br><br>
+Alter the lines as you need. Replace IP address to your miners' IP address. (Leave quotation marks)! Replace the value in the "name" to whatever your miner's name is. CAUTION! DO NOT ALTER THE VALUE IN THE "type_hint"!!! That value must stay, otherwise the application will not function properly! Any Avalon products, use "avalon". Any Bitaxe and NerdQaxe products use "nerd". Any Lucky Miner products use "lucky".<br>
+NOTE: the last configuration line DOES NOT HAVE the comma "," at the end! IF you will configure only one miner make sure that the comma is not present at the end. It only requires if you add multiple lines except at the end of the last line!!!<br><br>
+Save the file<br><br>
 Start the application from the terminal running the below command:
 
 ```bash
@@ -59,7 +73,7 @@ python3 minerdashboard.py
 
 <br>
 
-<h4>Donations are possible to make and highly appreciated via crypto payments:</h4>
+<h4>Donations are accepted and highly appreciated via crypto payments:</h4>
 <b>DGB</b> wallet address:&nbsp;&nbsp;DEkZrJo1BHdiqnQq1XQSWGymEcDWGAWwZs<br>
 <b>DOGE</b> wallet address:&nbsp;&nbsp;DKZ9sv4VoTiQQdwi7VY25573UfpQqZJfYf<br>
 <b>LTC</b> wallet address:&nbsp;&nbsp;MJw3XHpR65Ec8rKEBthK5Dnvcy1CixYGTa<br>
